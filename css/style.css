@@ -656,10 +656,11 @@ article.pricing-card.featured {
     font-size: 18px;
     font-weight: 600;
     margin: 0 20px;
-    width: stretch;
+    width: stretch !important;
 }
 .accordion-item.active .accordion-header {
     border-bottom: 1px solid rgb(0 0 0 / 10%);
+    width: stretch !important;
 }
 
 .icon{
