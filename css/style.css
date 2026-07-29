@@ -286,7 +286,7 @@ ul.checklist.horizontal-list {
 }
 ul.checklist.horizontal-list li::before {
     content: '';
-    background: url('https://muskan-khosla.github.io/flowpilot/assets/icons/check.svg') no-repeat center center;
+    background: url('https://muskan-khosla.github.io/flowpilot/assets/icons/Check.svg') no-repeat center center;
     width: 20px;
     display: inline-block;
     object-fit: fill;
