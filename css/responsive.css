@@ -151,6 +151,9 @@ section#hero .container {
 .accordion {
     max-width: 80%;
 }
+.accordion-item .accordion-header, .accordion-item.active .accordion-header {
+    width: stretch !Important;
+}
 
 /* cta */
 .cta-buttons {
@@ -242,6 +245,9 @@ article.feature-card {
 /* faq */
 .accordion {
     max-width: 100%;
+}
+    .accordion-item .accordion-header, .accordion-item.active .accordion-header {
+    width: stretch !Important;
 }
 
 /* cta */
