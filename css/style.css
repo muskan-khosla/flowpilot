@@ -281,7 +281,7 @@ section#hero .container {
 ul.checklist.horizontal-list {
     display: flex;
     gap: 10px 30px;
-    margin: 30px 0 0px;
+    margin: 30px 0 30px;
     flex-wrap: wrap;
 }
 ul.checklist.horizontal-list li::before {
