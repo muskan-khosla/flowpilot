@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://muskan-khosla.github.io/flowpilot/sitemap.xml
