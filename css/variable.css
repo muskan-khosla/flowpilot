@@ -1,0 +1,139 @@
+/* ==========================================
+   FLOWPILOT DESIGN SYSTEM
+========================================== */
+
+:root {
+
+  /* ========= Brand Colors ========= */
+
+  --primary: #685DFF;          /* Main purple */
+  --primary-dark: #4F46E5;
+  --secondary: #7C74FF;
+
+  /* Gradient */
+  --gradient-primary: linear-gradient(
+    135deg,
+    #685DFF 0%,
+    #8C84FF 100%
+  );
+
+  --gradient-light: linear-gradient(
+    180deg,
+    #F8F8FF 0%,
+    #FFFFFF 100%
+  );
+
+  --gradient: linear-gradient(180deg, #fff, #8C84FF);
+  --gradient-reverse: linear-gradient(0deg, #fff, #CBC8F9);
+
+  --box-gradient: linear-gradient(180deg, rgb(79, 70, 229, 0.05), rgb(6, 182, 212, 0.03));
+  
+  --faq-gradient: linear-gradient(0deg, rgb(79, 70, 229, 0.1), rgb(6, 182, 212, 0.1));
+
+  --cta-gradient: linear-gradient(180deg, #4F46E5 0%, #7C3AED 100%);
+
+
+
+
+  /* ========= Background ========= */
+
+  --bg-body: #FFFFFF;
+  --bg-section: #FAFBFF;
+  --bg-card: #FFFFFF;
+
+  --bg-soft: #F5F7FF;
+  --bg-purple-light: #F1F0FF;
+  --bg-purple-dark: #CBC8F9;
+
+
+
+  /* ========= Text ========= */
+
+  --text-primary: #1B1F3B;
+  --text-secondary: #6E7191;
+  --text-light: #9CA3AF;
+  --text-white: #FFFFFF;
+
+
+
+  /* ========= Border ========= */
+
+  --border: #E8EBF7;
+  --border-light: #F2F4FA;
+
+
+
+  /* ========= Status ========= */
+
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+
+
+
+  /* ========= Shadows ========= */
+
+  --shadow-sm:
+      0 4px 12px rgba(18, 38, 63, .05);
+
+  --shadow-md:
+      0 12px 30px rgba(18, 38, 63, .08);
+
+  --shadow-lg:
+      0 24px 60px rgba(104, 93, 255, .12);
+
+  --shadow-card:
+      0 8px 30px rgba(18, 38, 63, .06);
+
+
+
+  /* ========= Radius ========= */
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-round: 999px;
+
+
+
+  /* ========= Typography ========= */
+
+  --font-primary: "Plus Jakarta Sans", sans-serif;
+
+  --fs-14: .875rem;
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-24: 1.5rem;
+  --fs-32: 2rem;
+  --fs-40: 2.5rem;
+  --fs-56: 3.5rem;
+  --fs-72: 4.5rem;
+
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+
+
+
+   /* Layout */
+    --container-width: 1280px;
+    --container-padding: 20px;
+
+    /* Sections */
+    --section-padding: 120px;
+    --section-padding-sm: 80px;
+
+    /* Header */
+    --header-height: 100px;
+
+    /* transition */
+    --transition: all .3s ease-in-out;
+
+    /* sections */
+    --dark-section-bg: #F8FAFC;
+}
+

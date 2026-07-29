@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | FlowPilot</title>
+    <link rel="stylesheet" href="css/variable.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- header  -->
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href="/">
+                <img src="/assets/logos/flowpilot-logo.png" alt="Flowpilot Logo" />
+            </a>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+            <a href="/contact.html" class="btn btn-primary">Contact Us</a>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle Navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+
+<!-- Body content goes here. -->
+<main>
+
+<section class="page-header">
+    <div class="container ">
+        <span class="badge">Get in Touch</span>
+        <h1>We're here to help!</h1>
+        <p>
+            have questions about FlowPilot? Fill out the form or reach out using any of the options below.
+        </p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact-section">
+    <div class="container">
+        <div class="contact-wrapper">
+            <!-- Left Side -->
+            <div class="contact-form-card">
+                <div class="section-heading">
+                    <h2>Send us a message</h2>
+                    <p>
+                        Our team will get back to you as soon as possible.
+                    </p>
+                </div>
+                <form id="contact-form" action="submit.php" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name <span>*</span></label>
+                            <input type="text" id="name" placeholder="Enter your name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email <span>*</span></label>
+                            <input type="email" id="email" placeholder="Enter your email" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject <span>*</span></label>
+                        <select id="subject" name="subject">
+                            <option selected disabled>Select a subject</option>
+                            <option>General Inquiry</option>
+                            <option>Sales</option>
+                            <option>Technical Support</option>
+                            <option>Billing</option>
+                            <option>Partnership</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company (Optional)</label>
+                        <input type="text" id="company" placeholder="Enter your company name" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message <span>*</span></label>
+                        <textarea id="message" rows="6" placeholder="Write your message here..." name="message"></textarea>
+                    </div>
+                    <div class="form-bottom">
+
+                        <button class="btn btn-primary full-width">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                        <div class="privacy-note">
+                            <i class="fa-solid fa-lock"></i>
+                            <p>
+                                We respect your privacy. Your information is safe with us.
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Right Side -->
+            <div class="contact-info">
+                <div class="section-heading">
+                    <h3>Other ways to reach us</h3>
+                    <p>
+                        Choose the channel that works best for you.
+                    </p>
+                </div>
+                <div class="info-card">
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="content">
+                        <h4>Email Us</h4>
+                        <p>support@flowpilot.com</p>
+                        <span>Usually replies within a few hours.</span>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="icon">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <div class="content">
+                        <h4>Live Chat</h4>
+                        <p>Available on our website</p>
+                        <span>Monday – Friday, 9:00 AM – 6:00 PM</span>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="content">
+                        <h4>Call Us</h4>
+                        <p>+1 (555) 123-4567</p>
+                        <span>Monday – Friday, 9:00 AM – 6:00 PM</span>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="content">
+                        <h4>Our Office</h4>
+                        <p>123 Innovation Drive</p>
+                        <span>New York, NY 10001, USA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Google Map Section -->
+<section id="location-map">
+    <div class="map-wrapper">
+        <iframe
+            src="https://www.google.com/maps?q=New+York,+NY&output=embed"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+
+
+  <!-- FAQ Section -->
+<section id="faq" class="faq dark-section">
+    <div class="container">
+        <div class="section-heading">
+            <span class="badge">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
+            <p class="section-subheading">
+                Everything you need to know before getting started with FlowPilot.
+            </p>
+        </div>
+        <div class="accordion">
+
+            <div class="accordion-item active">
+                <button class="accordion-header">
+                    <span>How quickly will I receive a response?</span>
+                    <img src="/assets/icons/arrow-down.svg" alt="plus" class="icon">
+                </button>
+                <div class="accordion-content">
+                    <p>
+                       We typically respond to all inquiries within one business day. Support requests are prioritized based on urgency.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <span>Do you offer live product demonstrations?</span>
+                    <img src="/assets/icons/arrow-down.svg" alt="plus" class="icon">
+                </button>
+                <div class="accordion-content">
+                    <p>
+                        Yes! You can request a personalized product demo through the contact form, and our team will schedule a convenient time with you.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <span>Can I contact sales before purchasing?</span>
+                    <img src="/assets/icons/arrow-down.svg" alt="plus" class="icon">
+                </button>
+                <div class="accordion-content">
+                    <p>
+                        Absolutely. Our sales team is happy to answer questions about features, pricing, integrations, and selecting the right plan for your team.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <span>Where can I get technical support?</span>
+                    <img src="/assets/icons/arrow-down.svg" alt="plus" class="icon">
+                </button>
+                <div class="accordion-content">
+                    <p>
+                        You can submit a support request using this form or contact our support team via email. We'll help troubleshoot any issues as quickly as possible.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <span>Do you provide enterprise support?</span>
+                    <img src="/assets/icons/arrow-down.svg" alt="plus" class="icon">
+                </button>
+                <div class="accordion-content">
+                    <p>
+                        Yes. Enterprise customers receive priority assistance, dedicated onboarding, and customized support tailored to their business needs.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <span>Is my information secure?</span>
+                    <img src="/assets/icons/arrow-down.svg" alt="plus" class="icon">
+                </button>
+                <div class="accordion-content">
+                    <p>
+                        Yes. We treat your personal information with care and use industry-standard security practices. Your details are never shared with third parties without your consent.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- Footer  -->
+<footer id="footer">
+    <div class="container">
+        <div class="footer-top">
+            <!-- Company Info -->
+            <div class="footer-column footer-about">
+                <a href="#" class="footer-logo">
+                    <img src="assets/logos/flowpilot-logo.png" alt="FlowPilot Logo">
+                </a>
+                <p>
+                    AI-powered project management for modern teams.
+                </p>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn">
+                        <img src="assets/icons/LinkedIn.svg" alt="LinkedIn">
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <img src="assets/icons/X.svg" alt="Twitter">
+                    </a>
+                    <a href="#" aria-label="GitHub">
+                        <img src="assets/icons/GitHub.svg" alt="GitHub">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="footer-column">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="/terms.html">Terms of Service</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <!-- <li><a href="/help-center.html">Help Center</a></li> -->
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                © 2026 FlowPilot. All rights reserved.
+                Designed & Developed by
+                <a href="https://www.linkedin.com/in/muskankhosla/" target="_blank">
+                    Muskan Khosla
+                </a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="/js/testimonial-slider.js"></script>
+<script src="/js/accordion.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="/js/script.js"></script>
+<script src="/js/accordion.js"></script>
+</body>
+</html>
