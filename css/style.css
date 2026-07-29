@@ -286,7 +286,7 @@ ul.checklist.horizontal-list {
 }
 ul.checklist.horizontal-list li::before {
     content: '';
-    background: url('/assets/icons/check.svg') no-repeat center center;
+    background: url('https://muskan-khosla.github.io/flowpilot/assets/icons/check.svg') no-repeat center center;
     width: 20px;
     display: inline-block;
     object-fit: fill;
@@ -738,7 +738,7 @@ ul.cta-benefits li {
     gap: 10px;
 }
 ul.checklist.horizontal-list.cta-checklist li::before {
-    background: url('/assets/icons/check-white.svg') no-repeat center center !important;
+    background: url('https://muskan-khosla.github.io/flowpilot/assets/icons/check-white.svg') no-repeat center center !important;
 }
 .cta-buttons {
     display: flex;
@@ -858,7 +858,7 @@ ul.checklist.vertical-list {
 }
 ul.checklist.vertical-list li::before {
     content: '';
-    background: url('/assets/icons/check.svg') no-repeat center center;
+    background: url('https://muskan-khosla.github.io/flowpilot/assets/icons/check.svg') no-repeat center center;
     width: 20px;
     display: inline-block;
     object-fit: fill;
